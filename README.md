@@ -1,31 +1,34 @@
-# Daniel Castaneda Reiki — GitHub Pages Birthday Mockup
+# Daniel Reiki Mockup V2 — GitHub Pages Site
 
-A static one-page Reiki website mockup created as a birthday surprise.
+This is the upgraded birthday mockup with more interactive features.
 
-## What is included
+## New features in V2
 
-- `index.html` — the full mockup website
-- `style.css` — calm, grounded styling
-- `script.js` — tiny interactive energy prompt
+- Energy Check-In tool
+- Suggested session recommendations
+- Meditation/audio library placeholders
+- Daniel’s Reiki Journey timeline
+- Follow-the-journey signup mockup
+- Distance Reiki worldwide positioning
 - GitHub Pages ready
 
-## How to publish on GitHub Pages
+## How to update the existing GitHub site
 
-1. Create a new GitHub repository, for example: `daniel-reiki`
-2. Upload these files to the repository root
-3. Go to **Settings → Pages**
-4. Under **Build and deployment**, choose:
-   - Source: `Deploy from a branch`
-   - Branch: `main`
-   - Folder: `/root`
-5. Save and wait for GitHub to publish the link
+1. Unzip this folder
+2. Open your GitHub repository
+3. Upload/replace:
+   - `index.html`
+   - `style.css`
+   - `script.js`
+   - `README.md`
+4. Commit changes
+5. Wait a minute or two for GitHub Pages to refresh
 
-## Placeholder items to update
+## Later upgrades
 
-- Booking links
-- Email address
-- Prices
-- Daniel's photo
-- Real service descriptions
-- Testimonials
-- Final business name
+- Connect real booking calendar
+- Connect Stripe/Square
+- Replace mailto links
+- Add Daniel photos
+- Add actual audio files
+- Add custom domain
