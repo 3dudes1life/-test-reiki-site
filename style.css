@@ -372,16 +372,29 @@ select, input {
 
 .timeline-item {
   display: grid;
-  grid-template-columns: 80px 1fr;
-  gap: 22px;
+  grid-template-columns: 90px 1fr;
+  gap: 26px;
+  align-items: start;
   border-top: 1px solid rgba(24,53,45,.16);
-  padding: 24px 0;
+  padding: 28px 0;
 }
 
 .timeline-item span {
-  font-size: 1.6rem;
+  grid-row: 1 / span 2;
+  font-size: 1.8rem;
   font-weight: 900;
   color: var(--gold);
+  line-height: 1;
+}
+
+.timeline-item h3 {
+  margin: 0 0 8px;
+}
+
+.timeline-item p {
+  max-width: 760px;
+  margin: 0;
+  color: var(--muted);
 }
 
 .benefits {
